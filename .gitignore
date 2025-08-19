@@ -2,6 +2,14 @@
 downloads/
 extracted/
 
+# Result files
+result.txt
+done.txt
+errors.txt
+
+# Configuration (contains sensitive data)
+config.env
+
 # Python
 __pycache__/
 *.py[cod]
@@ -49,4 +57,8 @@ Thumbs.db
 # Database files
 *.db
 *.sqlite
-*.sqlite3 
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp 

@@ -1,0 +1,217 @@
+2025-08-18 22:38:30,518 - INFO - Loaded 78529 valid CNPJs from input.txt
+2025-08-18 22:38:30,519 - INFO - Found 0 already completed CNPJs
+2025-08-18 22:38:30,519 - INFO - Starting Optimized CNPJ Scraper...
+2025-08-18 22:38:30,523 - INFO - Testing proxy connectivity...
+2025-08-18 22:38:32,724 - INFO - Ready to process 78529 CNPJs
+2025-08-18 22:38:32,724 - INFO - Processing batch 1/1571
+2025-08-18 22:38:35,682 - INFO - Missing contact data for 07134405000161: phone=False, email=True
+2025-08-18 22:38:35,682 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:35,796 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:35,857 - INFO - Missing contact data for 00764941000100: phone=True, email=True
+2025-08-18 22:38:35,857 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:35,867 - INFO - Missing contact data for 63554307000154: phone=True, email=True
+2025-08-18 22:38:35,867 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:35,879 - INFO - Missing contact data for 71738355000120: phone=True, email=True
+2025-08-18 22:38:35,880 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:35,899 - INFO - Missing contact data for 13441639000154: phone=True, email=True
+2025-08-18 22:38:35,899 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:35,909 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:35,950 - INFO - Missing contact data for 82891201000190: phone=True, email=True
+2025-08-18 22:38:35,950 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:35,975 - INFO - Missing contact data for 09844468000137: phone=True, email=True
+2025-08-18 22:38:35,975 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:36,023 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,030 - INFO - Missing contact data for 02344245000161: phone=True, email=True
+2025-08-18 22:38:36,030 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:36,042 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,043 - INFO - Missing contact data for 00066795000130: phone=True, email=True
+2025-08-18 22:38:36,043 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:36,059 - INFO - Missing contact data for 00335121000194: phone=True, email=True
+2025-08-18 22:38:36,059 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:36,073 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,077 - INFO - Missing contact data for 07314877000104: phone=False, email=True
+2025-08-18 22:38:36,077 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:36,119 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,166 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,435 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,873 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:36,999 - INFO - Missing contact data for 16150672000113: phone=True, email=True
+2025-08-18 22:38:37,000 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:37,049 - INFO - Missing contact data for 54713847000142: phone=True, email=True
+2025-08-18 22:38:37,049 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:37,076 - INFO - Missing contact data for 24200020000174: phone=False, email=True
+2025-08-18 22:38:37,076 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:37,122 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:37,145 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:37,147 - INFO - Missing contact data for 06427216000114: phone=True, email=True
+2025-08-18 22:38:37,154 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:37,223 - INFO - Missing contact data for 03862692000175: phone=True, email=True
+2025-08-18 22:38:37,223 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:37,517 - INFO - Missing contact data for 76817915000156: phone=True, email=True
+2025-08-18 22:38:37,517 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:38,071 - INFO - Missing contact data for 71242234000193: phone=True, email=True
+2025-08-18 22:38:38,071 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:38:38,393 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:38:38,560 - INFO - Found phone on https://cnpj.biz/00764941000100: 89536128322
+2025-08-18 22:38:38,582 - INFO - Found phone on https://cnpj.biz/13441639000154: 89536128322
+2025-08-18 22:38:38,727 - INFO - Found phone on https://cnpj.biz/82891201000190: 89536128322
+2025-08-18 22:38:38,778 - INFO - Found phone on https://cnpj.biz/09844468000137: 89536128322
+2025-08-18 22:38:38,971 - INFO - Found phone on https://cnpj.biz/00066795000130: 89536128322
+2025-08-18 22:38:39,089 - INFO - Found phone on https://cnpj.biz/02344245000161: 89536128322
+2025-08-18 22:38:39,223 - INFO - Found phone on https://cnpj.biz/00335121000194: 89536128322
+2025-08-18 22:38:39,756 - INFO - Found phone on https://cnpj.biz/71738355000120: 89536128322
+2025-08-18 22:38:39,800 - INFO - Found phone on https://cnpj.biz/16150672000113: 89536128322
+2025-08-18 22:38:39,833 - INFO - Found phone on https://cnpj.biz/63554307000154: 89536128322
+2025-08-18 22:38:39,946 - INFO - Found phone on https://cnpj.biz/03862692000175: 89536128322
+2025-08-18 22:38:40,251 - INFO - Found phone on https://cnpj.biz/76817915000156: 89536128322
+2025-08-18 22:38:40,565 - INFO - Found phone on https://cnpj.biz/54713847000142: 89536128322
+2025-08-18 22:38:40,798 - INFO - Found phone on https://cnpj.biz/71242234000193: 89536128322
+2025-08-18 22:38:41,606 - INFO - Found phone on https://cnpj.biz/06427216000114: 89536128322
+2025-08-18 22:38:45,672 - INFO - Missing contact data for 16970547000150: phone=False, email=True
+2025-08-18 22:38:45,672 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:46,772 - INFO - Missing contact data for 22684276000179: phone=False, email=True
+2025-08-18 22:38:46,772 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,480 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,480 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,496 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,496 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,521 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,521 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,556 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,556 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,573 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,573 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,682 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,682 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,761 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,762 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:53,851 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:53,851 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:54,907 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:54,907 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,515 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,515 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,527 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,527 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,528 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,528 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,547 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,547 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,758 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,758 - INFO - Running web scraping to find missing email...
+2025-08-18 22:38:55,798 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:38:55,798 - INFO - Running web scraping to find missing email...
+2025-08-18 22:39:25,071 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:26,333 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:26,998 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:34,707 - INFO - Missing contact data for 25017151000183: phone=False, email=True
+2025-08-18 22:39:34,707 - INFO - Running web scraping to find missing email...
+2025-08-18 22:39:35,124 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:35,905 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:35,921 - INFO - Missing contact data for 05215516000177: phone=False, email=True
+2025-08-18 22:39:35,921 - INFO - Running web scraping to find missing email...
+2025-08-18 22:39:36,278 - INFO - Missing contact data for 11797152000183: phone=False, email=True
+2025-08-18 22:39:36,279 - INFO - Running web scraping to find missing email...
+2025-08-18 22:39:36,770 - INFO - Missing contact data for 15575770000130: phone=False, email=True
+2025-08-18 22:39:36,770 - INFO - Running web scraping to find missing email...
+2025-08-18 22:39:36,991 - INFO - Found email on https://cnpj.biz/25017151000183: trevizaniadm@trevizaniadm.com.br
+2025-08-18 22:39:38,958 - INFO - Missing contact data for 84880871000218: phone=True, email=True
+2025-08-18 22:39:38,958 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:39,371 - INFO - Found email on https://cnpj.biz/15575770000130: consultoria@mallardmedeiros.com
+2025-08-18 22:39:40,933 - INFO - Found phone on https://cnpj.biz/84880871000218: 89536128322
+2025-08-18 22:39:42,960 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,128 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,157 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,321 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,332 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,481 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,496 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:43,558 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:44,196 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,050 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,081 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,112 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,169 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,367 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:45,613 - WARNING - Web scraping didn't find email
+2025-08-18 22:39:46,501 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:39:46,654 - INFO - Missing contact data for 09883207000126: phone=True, email=False
+2025-08-18 22:39:46,654 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:46,733 - INFO - Missing contact data for 45887072000130: phone=True, email=True
+2025-08-18 22:39:46,733 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:47,824 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:39:47,826 - INFO - Missing contact data for 95370474000131: phone=True, email=True
+2025-08-18 22:39:47,826 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:47,871 - INFO - Missing contact data for 02153271000102: phone=True, email=True
+2025-08-18 22:39:47,871 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:47,948 - INFO - Missing contact data for 02714013000158: phone=True, email=True
+2025-08-18 22:39:47,948 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:48,266 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:39:48,282 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:39:48,386 - INFO - Missing contact data for 40634073000150: phone=True, email=True
+2025-08-18 22:39:48,386 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:48,510 - INFO - Contact data already complete from APIs, skipping web scraping
+2025-08-18 22:39:48,806 - INFO - Missing contact data for 45745916000109: phone=True, email=True
+2025-08-18 22:39:48,806 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:39:48,924 - INFO - Found phone on https://cnpj.biz/09883207000126: 89536128322
+2025-08-18 22:39:49,033 - INFO - Found phone on https://cnpj.biz/45887072000130: 89536128322
+2025-08-18 22:39:49,835 - INFO - Found phone on https://cnpj.biz/95370474000131: 89536128322
+2025-08-18 22:39:49,903 - INFO - Found phone on https://cnpj.biz/02153271000102: 89536128322
+2025-08-18 22:39:50,132 - INFO - Found phone on https://cnpj.biz/02714013000158: 89536128322
+2025-08-18 22:39:50,518 - INFO - Found phone on https://cnpj.biz/40634073000150: 89536128322
+2025-08-18 22:39:50,774 - INFO - Found phone on https://cnpj.biz/45745916000109: 89536128322
+2025-08-18 22:39:51,748 - INFO - Found email via web scraping: trevizaniadm@trevizaniadm.com.br
+2025-08-18 22:39:54,434 - INFO - Found email via web scraping: consultoria@mallardmedeiros.com
+2025-08-18 22:39:56,722 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:39:56,722 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:00,747 - INFO - Missing contact data for 36414241000124: phone=True, email=True
+2025-08-18 22:40:00,747 - INFO - Running web scraping to find missing phone number...
+2025-08-18 22:40:02,752 - INFO - Found phone on https://cnpj.biz/36414241000124: 89536128322
+2025-08-18 22:40:03,594 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:03,720 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:03,720 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:04,864 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:04,864 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:04,910 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:04,910 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:05,107 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:05,107 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:05,545 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:05,545 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:06,368 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:06,368 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:17,771 - INFO - Found phone via web scraping: 89536128322
+2025-08-18 22:40:17,771 - INFO - Running web scraping to find missing email...
+2025-08-18 22:40:24,958 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:25,377 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,435 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,437 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,438 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,439 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,440 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,441 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:42,442 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:43,449 - WARNING - Web scraping didn't find email
+2025-08-18 22:40:44,600 - INFO - Scraping completed successfully!
+2025-08-18 22:40:44,602 - INFO - Final statistics - Cache size: 50, Completed: 50, Errors: 0
+2025-08-18 22:40:44,633 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,634 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,634 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,635 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,635 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,635 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-18 22:40:44,635 - ERROR - Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
