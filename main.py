@@ -331,12 +331,12 @@ class OptimizedCNPJScraper:
         # Initialize files
         self._init_files()
         
-        # Load CNPJs
+        # Load CNPJs (completed ones are automatically filtered out)
         self.cnpjs = self._load_cnpjs()
         self.dashboard.total = len(self.cnpjs)
         self.dashboard.pending = len(self.cnpjs)
         
-        # Load completed CNPJs
+        # Load completed CNPJs for tracking (but they're already filtered from input)
         self.completed_cnpjs = self._load_completed_cnpjs()
         
     def _load_config(self) -> Dict:
@@ -424,21 +424,28 @@ class OptimizedCNPJScraper:
             open(self.error_file, 'w').close()
     
     def _load_cnpjs(self) -> List[str]:
-        """Load CNPJs from input file with validation"""
+        """Load CNPJs from input file with validation and remove completed ones"""
         if not os.path.exists(self.input_file):
             print(f"{Fore.RED}Error: {self.input_file} not found!{Style.RESET_ALL}")
             return []
         
+        # Load completed CNPJs first
+        completed_cnpjs = self._load_completed_cnpjs()
+        
         with open(self.input_file, 'r') as f:
             raw_cnpjs = [line.strip() for line in f if line.strip()]
         
-        # Validate CNPJs
+        # Validate CNPJs and remove completed ones
         valid_cnpjs = []
         invalid_cnpjs = []
+        completed_found = 0
         
         for cnpj in raw_cnpjs:
             if validate_cnpj(cnpj):
-                valid_cnpjs.append(cnpj)
+                if cnpj not in completed_cnpjs:
+                    valid_cnpjs.append(cnpj)
+                else:
+                    completed_found += 1
             else:
                 invalid_cnpjs.append(cnpj)
         
@@ -449,7 +456,10 @@ class OptimizedCNPJScraper:
             if len(invalid_cnpjs) > 5:
                 logger.warning(f"  ... and {len(invalid_cnpjs) - 5} more")
         
-        logger.info(f"Loaded {len(valid_cnpjs)} valid CNPJs from {self.input_file}")
+        if completed_found > 0:
+            logger.info(f"Removed {completed_found} already completed CNPJs from input")
+        
+        logger.info(f"Loaded {len(valid_cnpjs)} valid CNPJs from {self.input_file} (after removing completed)")
         return valid_cnpjs
     
     def _load_completed_cnpjs(self) -> set:
@@ -1204,8 +1214,8 @@ EMAIL: {data.email}
                 proxy_ip
             )
             
-            # Filter out completed CNPJs
-            pending_cnpjs = [cnpj for cnpj in self.cnpjs if cnpj not in self.completed_cnpjs]
+            # CNPJs list already excludes completed ones, so use it directly
+            pending_cnpjs = self.cnpjs
             self.dashboard.pending = len(pending_cnpjs)
             
             logger.info(f"Ready to process {len(pending_cnpjs)} CNPJs")
